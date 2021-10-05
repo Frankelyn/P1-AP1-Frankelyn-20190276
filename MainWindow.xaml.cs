@@ -24,5 +24,15 @@ namespace P1_AP1_Frankelyn_20190276
         {
             InitializeComponent();
         }
+
+        private void AporteMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ConsultaAporteMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
