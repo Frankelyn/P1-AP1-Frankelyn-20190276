@@ -28,7 +28,7 @@
                             <TranslateTransform X="6"/>
                         </TransformGroup>
                     </StackPanel.RenderTransform>
-                    <Button x:Name="BuscarButton" Height="28" Width="40">
+                    <Button x:Name="BuscarButton" Height="28" Width="40" Click="BuscarButton_Click">
                         <Image Source="/Resources/search-icon (1).png" />
                     </Button>
 
@@ -99,14 +99,14 @@
                         <TranslateTransform X="-1550" Y="190"/>
                     </TransformGroup>
                 </StackPanel.RenderTransform>
-                <Button x:Name="NuevoButton" Height="70" Width="80">
+                <Button x:Name="NuevoButton" Height="70" Width="80" Click="NuevoButton_Click">
                     <StackPanel Orientation="Vertical">
                         <Image Source="/Resources/new-icon.png"  Height="30"/>
                         <Label Content="Nuevo"/>
                     </StackPanel>
                 </Button>
 
-                <Button x:Name="GuardarButton" Height="70" Width="80" RenderTransformOrigin="0.5,0.5">
+                <Button x:Name="GuardarButton" Height="70" Width="80" RenderTransformOrigin="0.5,0.5" Click="GuardarButton_Click">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <TranslateTransform X="7"/>
@@ -118,7 +118,7 @@
                     </StackPanel>
                 </Button>
 
-                <Button x:Name="EliminarButton" Height="70" Width="80" RenderTransformOrigin="0.5,0.5">
+                <Button x:Name="EliminarButton" Height="70" Width="80" RenderTransformOrigin="0.5,0.5" Click="EliminarButton_Click">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <TranslateTransform X="15"/>
