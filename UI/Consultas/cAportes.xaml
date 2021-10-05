@@ -47,7 +47,7 @@
                             <TranslateTransform X="-220" Y="50"/>
                         </TransformGroup>
                     </StackPanel.RenderTransform>
-                    <Button x:Name="BuscarButton" Height="54" Width="103">
+                    <Button x:Name="BuscarButton" Height="54" Width="103" Click="BuscarButton_Click">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="/Resources/search-icon (1).png" Height="35"/>
                             <Label Content="Buscar" FontSize="16"/>

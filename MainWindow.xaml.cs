@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using P1_AP1_Frankelyn_20190276.UI.Registros;
+using P1_AP1_Frankelyn_20190276.UI.Consultas;
 
 namespace P1_AP1_Frankelyn_20190276
 {
@@ -34,7 +35,8 @@ namespace P1_AP1_Frankelyn_20190276
 
         private void ConsultaAporteMenuItem_Click(object sender, RoutedEventArgs e)
         {
-
+            cAportes cAportes = new cAportes();
+            cAportes.Show();
         }
     }
 }

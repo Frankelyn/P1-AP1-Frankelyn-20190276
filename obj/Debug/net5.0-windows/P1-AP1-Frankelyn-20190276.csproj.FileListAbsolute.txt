@@ -67,3 +67,5 @@ C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada
 C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\P1-AP1-Frankelyn-20190276\P1-AP1-Frankelyn-20190276\obj\Debug\net5.0-windows\UI\Registros\rAportes.baml
 C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\P1-AP1-Frankelyn-20190276\P1-AP1-Frankelyn-20190276\obj\Debug\net5.0-windows\P1_AP1_Frankelyn_20190276.Properties.Resources.resources
 C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\P1-AP1-Frankelyn-20190276\P1-AP1-Frankelyn-20190276\obj\Debug\net5.0-windows\P1-AP1-Frankelyn-20190276.csproj.GenerateResource.cache
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\P1-AP1-Frankelyn-20190276\P1-AP1-Frankelyn-20190276\obj\Debug\net5.0-windows\UI\Consultas\cAportes.g.cs
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\P1-AP1-Frankelyn-20190276\P1-AP1-Frankelyn-20190276\obj\Debug\net5.0-windows\UI\Consultas\cAportes.baml
