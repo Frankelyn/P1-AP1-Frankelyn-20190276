@@ -21,7 +21,7 @@
                         <TranslateTransform Y="-130" X="-50"/>
                     </TransformGroup>
                 </StackPanel.RenderTransform>
-                <TextBox x:Name="AporteIdTextbox" Height="22" Width="90"/>
+                <TextBox x:Name="AporteIdTextbox" Height="22" Width="90" Text="{Binding AporteId}"/>
                 <StackPanel Orientation="Horizontal" RenderTransformOrigin="0.5,0.5">
                     <StackPanel.RenderTransform>
                         <TransformGroup>
@@ -52,7 +52,7 @@
                     </TransformGroup>
                 </StackPanel.RenderTransform>
                 <Label Content="Persona:"/>
-                <TextBox x:Name="PersonaTextbox" Height="22" Width="300" RenderTransformOrigin="0.5,0.5">
+                <TextBox x:Name="PersonaTextbox" Text="{Binding Persona}"  Height="22" Width="300" RenderTransformOrigin="0.5,0.5">
                     <TextBox.RenderTransform>
                         <TransformGroup>
                             <TranslateTransform X="-45"/>
@@ -68,7 +68,7 @@
                     </TransformGroup>
                 </StackPanel.RenderTransform>
                 <Label Content="Concepto:"/>
-                <TextBox x:Name="ConceptoTextbox" Height="22" Width="300" RenderTransformOrigin="0.5,0.5">
+                <TextBox x:Name="ConceptoTextbox" Text="{Binding Concepto}" Height="22" Width="300" RenderTransformOrigin="0.5,0.5">
                     <TextBox.RenderTransform>
                         <TransformGroup>
                             <TranslateTransform X="-45"/>
@@ -84,7 +84,7 @@
                     </TransformGroup>
                 </StackPanel.RenderTransform>
                 <Label Content="Monto:"/>
-                <TextBox x:Name="MontoTextbox" Height="22" Width="300" RenderTransformOrigin="0.5,0.5">
+                <TextBox x:Name="MontoTextbox" Text="{Binding Monto}"  Height="22" Width="300" RenderTransformOrigin="0.5,0.5">
                     <TextBox.RenderTransform>
                         <TransformGroup>
                             <TranslateTransform X="-45"/>
