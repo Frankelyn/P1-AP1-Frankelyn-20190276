@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using P1_AP1_Frankelyn_20190276.UI.Registros;
 
 namespace P1_AP1_Frankelyn_20190276
 {
@@ -27,7 +28,8 @@ namespace P1_AP1_Frankelyn_20190276
 
         private void AporteMenuItem_Click(object sender, RoutedEventArgs e)
         {
-
+            rAportes rAportes = new rAportes();
+            rAportes.Show();
         }
 
         private void ConsultaAporteMenuItem_Click(object sender, RoutedEventArgs e)
