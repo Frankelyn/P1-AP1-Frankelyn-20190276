@@ -9,7 +9,7 @@ using P1_AP1_Frankelyn_20190276.DAL;
 namespace P1_AP1_Frankelyn_20190276.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20211005002133_Migracion_Inicial")]
+    [Migration("20211005011140_Migracion_Inicial")]
     partial class Migracion_Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

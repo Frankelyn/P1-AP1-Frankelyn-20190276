@@ -24,10 +24,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="DATA\Aportes.db">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>
