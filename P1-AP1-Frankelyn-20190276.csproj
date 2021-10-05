@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+	  <StartWorkingDirectory> $(MSBuilProjectDirectory) </StartWorkingDirectory>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>P1_AP1_Frankelyn_20190276</RootNamespace>
@@ -9,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="DAL\" />
     <Folder Include="DATA\" />
     <Folder Include="Resources\" />
     <Folder Include="UI\Consultas\" />
@@ -22,6 +22,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DATA\Aportes.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
