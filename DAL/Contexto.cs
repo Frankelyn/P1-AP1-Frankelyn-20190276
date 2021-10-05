@@ -10,7 +10,7 @@ namespace P1_AP1_Frankelyn_20190276.DAL
 {
     public class Contexto : DbContext
     {
-        DbSet<Aportes> Aportes { get; set; }
+        public DbSet<Aportes> Aportes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
