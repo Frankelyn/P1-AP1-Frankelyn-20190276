@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P1_AP1_Frankelyn_20190276.UI.Registros"
         mc:Ignorable="d"
-        Title="Registro Aportes" Height="480" Width="400">
+        Title="Registro Aportes" Height="450" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel Orientation="Horizontal" Margin="0,-75,0,10">
             <Label Content="Aporte Id: " RenderTransformOrigin="0.5,0.5" Height="25">
@@ -45,58 +45,41 @@
                 <DatePicker x:Name="FechaDatePicker" SelectedDate="{Binding Fecha}" SelectedDateFormat="Short"/>
             </StackPanel>
 
-            <StackPanel Orientation="Vertical"  Height="60" Width="390" RenderTransformOrigin="0.5,0.5">
+            <StackPanel Orientation="Vertical"  Height="60" Width="305" RenderTransformOrigin="0.5,0.5">
                 <StackPanel.RenderTransform>
                     <TransformGroup>
                         <TranslateTransform X="-430" Y="-10"/>
                     </TransformGroup>
                 </StackPanel.RenderTransform>
                 <Label Content="Persona:"/>
-                <TextBox x:Name="PersonaTextbox" Text="{Binding Persona}"  Height="22" Width="300" RenderTransformOrigin="0.5,0.5">
-                    <TextBox.RenderTransform>
-                        <TransformGroup>
-                            <TranslateTransform X="-45"/>
-                        </TransformGroup>
-                    </TextBox.RenderTransform>
-                </TextBox>
+                <TextBox x:Name="PersonaTextbox" Text="{Binding Persona}"  Height="22" Width="300" RenderTransformOrigin="0.5,0.5"/>
             </StackPanel>
 
-            <StackPanel Orientation="Vertical"  Height="60" Width="390" RenderTransformOrigin="0.5,0.5">
+            <StackPanel Orientation="Vertical"  Height="60" Width="305" RenderTransformOrigin="0.5,0.5">
                 <StackPanel.RenderTransform>
                     <TransformGroup>
-                        <TranslateTransform X="-820" Y="50"/>
+                        <TranslateTransform X="-735" Y="50"/>
                     </TransformGroup>
                 </StackPanel.RenderTransform>
                 <Label Content="Concepto:"/>
-                <TextBox x:Name="ConceptoTextbox" Text="{Binding Concepto}" Height="22" Width="300" RenderTransformOrigin="0.5,0.5">
-                    <TextBox.RenderTransform>
-                        <TransformGroup>
-                            <TranslateTransform X="-45"/>
-                        </TransformGroup>
-                    </TextBox.RenderTransform>
-                </TextBox>
+                <TextBox x:Name="ConceptoTextbox" Text="{Binding Concepto}" Height="22" Width="300" RenderTransformOrigin="0.5,0.5"/>
+
             </StackPanel>
 
-            <StackPanel Orientation="Vertical"  Height="60" Width="390" RenderTransformOrigin="0.5,0.5">
+            <StackPanel Orientation="Vertical"  Height="60" Width="305" RenderTransformOrigin="0.5,0.5">
                 <StackPanel.RenderTransform>
                     <TransformGroup>
-                        <TranslateTransform X="-1210" Y="110"/>
+                        <TranslateTransform X="-1040" Y="110"/>
                     </TransformGroup>
                 </StackPanel.RenderTransform>
                 <Label Content="Monto:"/>
-                <TextBox x:Name="MontoTextbox" Text="{Binding Monto}"  Height="22" Width="300" RenderTransformOrigin="0.5,0.5">
-                    <TextBox.RenderTransform>
-                        <TransformGroup>
-                            <TranslateTransform X="-45"/>
-                        </TransformGroup>
-                    </TextBox.RenderTransform>
-                </TextBox>
+                <TextBox x:Name="MontoTextbox" Text="{Binding Monto}" Height="22" Width="300" RenderTransformOrigin="0.5,0.5"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Height="70" Width="300" RenderTransformOrigin="0.5,0.5">
                 <StackPanel.RenderTransform>
                     <TransformGroup>
-                        <TranslateTransform X="-1550" Y="190"/>
+                        <TranslateTransform X="-1320" Y="190"/>
                     </TransformGroup>
                 </StackPanel.RenderTransform>
                 <Button x:Name="NuevoButton" Height="70" Width="80" Click="NuevoButton_Click">

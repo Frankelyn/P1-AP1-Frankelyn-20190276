@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         xmlns:local="clr-namespace:P1_AP1_Frankelyn_20190276.UI.Consultas"
-        Title="Consulta Aportes" Height="600" Width="500">
+        Title="Consulta Aportes" Height="600" Width="650" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel Orientation="Vertical" Margin="10,5,10,0">
             <StackPanel Orientation="Horizontal" Height="650">
-                <StackPanel>
+                <StackPanel Width="220" Margin="0,0,0,0">
                     <Label Content="Desde:"/>
                     <DatePicker x:Name="DesdeDatePicker"/>
                 </StackPanel>
 
-                <StackPanel Orientation="Vertical" Margin="5,0">
+                <StackPanel Orientation="Vertical" Width="220" Margin="5,0">
                     <Label Content="Hasta:" />
                     <DatePicker x:Name="HastaDatePicker"/>
                 </StackPanel>
@@ -22,29 +22,29 @@
                 <StackPanel  Height="50" Margin="5,0" RenderTransformOrigin="0.5,0.5">
                     <StackPanel.RenderTransform>
                         <TransformGroup>
-                            <TranslateTransform X="-307" Y="-220"/>
+                            <TranslateTransform X="-455" Y="-220"/>
                         </TransformGroup>
                     </StackPanel.RenderTransform>
                     <Label Content="Campo a filtrar:"/>
-                    <ComboBox x:Name="FiltroComboBox" Width="100">
+                    <ComboBox x:Name="FiltroComboBox" Width="220">
                         <ComboBoxItem Content="Persona"/>
                         <ComboBoxItem Content="Concepto"/>
                     </ComboBox>
                 </StackPanel>
 
-                <StackPanel Margin="5,0" RenderTransformOrigin="0.5,0.5">
+                <StackPanel Margin="5,0" Width="218" RenderTransformOrigin="0.5,0.5">
                     <StackPanel.RenderTransform>
                         <TransformGroup>
-                            <TranslateTransform X="-310" Y="106"/>
+                            <TranslateTransform X="-460" Y="106"/>
                         </TransformGroup>
                     </StackPanel.RenderTransform>
-                    <TextBox x:Name="CriterioTextbox" Width="150" Height="22"/>
+                    <TextBox x:Name="CriterioTextbox" Width="215" Height="22"/>
                 </StackPanel>
 
                 <StackPanel Margin="5,0" RenderTransformOrigin="0.5,0.5">
                     <StackPanel.RenderTransform>
                         <TransformGroup>
-                            <TranslateTransform X="-220" Y="50"/>
+                            <TranslateTransform X="-416" Y="50"/>
                         </TransformGroup>
                     </StackPanel.RenderTransform>
                     <Button x:Name="BuscarButton" Height="54" Width="103" Click="BuscarButton_Click">
@@ -58,26 +58,26 @@
                 <StackPanel HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
                     <StackPanel.RenderTransform>
                         <TransformGroup>
-                            <TranslateTransform X="-674" Y="150"/>
+                            <TranslateTransform X="-1021" Y="150"/>
                         </TransformGroup>
                     </StackPanel.RenderTransform>
-                    <DataGrid x:Name="DatosDataGrid" Height="350" Width="450">
+                    <DataGrid x:Name="DatosDataGrid" Height="350" Width="600">
                         <DataGrid.Columns>
                             
                         </DataGrid.Columns>
                     </DataGrid>
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal" Height="30" Margin="0,10,0,0" RenderTransformOrigin="0.5,0.5">
+                <StackPanel Orientation="Horizontal" Height="30" Width="610" Margin="0,10,0,0" RenderTransformOrigin="0.5,0.5">
                     <StackPanel.RenderTransform>
                         <TransformGroup>
-                            <TranslateTransform X="-1126" Y="195"/>
+                            <TranslateTransform X="-1625" Y="195"/>
                         </TransformGroup>
                     </StackPanel.RenderTransform>
                     <Label Content="Conteo:"/>
                     <TextBox x:Name="ConteoTextBox" Width="50" Height="24"/>
-                    <Label Content="Total:" Margin="250,0,0,0"/>
-                    <TextBox x:Name="TotalTextBox" Width="63" Margin="0,0,0,0"/>
+                    <Label Content="Total:" Margin="391,0,0,0"/>
+                    <TextBox x:Name="TotalTextBox" Width="65" Height="24" Margin="9,0,0,0"/>
 
                 </StackPanel>
             </StackPanel>

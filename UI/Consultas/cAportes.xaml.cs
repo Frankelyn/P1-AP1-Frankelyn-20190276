@@ -62,18 +62,12 @@ namespace P1_AP1_Frankelyn_20190276.UI.Consultas
 
             var monto = listado.Sum(x => x.Monto);
 
-            string valor;
-
-            valor = Convert.ToString(monto);
-
-            TotalTextBox.Text = valor;
+            TotalTextBox.Text = monto.ToString("N2");
             TotalTextBox.IsEnabled = false;
 
             var conteo = listado.Count;
 
-            valor = Convert.ToString(conteo);
-
-            ConteoTextBox.Text = valor;
+            ConteoTextBox.Text = conteo.ToString();
             ConteoTextBox.IsEnabled = false;
         }
             
